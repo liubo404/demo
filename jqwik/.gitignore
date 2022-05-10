@@ -338,3 +338,4 @@ buildNumber.properties
 
 # End of https://www.toptal.com/developers/gitignore/api/intellij,intellij+iml,intellij+all,java,visualstudiocode,maven,linux
 /.vscode/
+/.idea/
