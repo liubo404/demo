@@ -1,0 +1,1 @@
+@main def m(args:String*) = println("hello")

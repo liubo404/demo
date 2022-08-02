@@ -1,0 +1,47 @@
+{
+  "data": {
+    "extendBooleanConfigMap": {
+      "settlement": 1,
+      "write_off": 1,
+      "fee_summary": 1,
+      "main_table_data": 1
+    },
+    "settlements": [
+      {
+        "collectionMethod": "1495659712463638528",
+        "amount": 345,
+        "accountName": "",
+        "accountNumber": "",
+        "accountBank": "",
+        "collectionMethodName": "现金",
+        "declaredAmount": 345
+      }
+    ],
+    "write_off": [
+      {
+        "isWriteOff": 1,
+        "freeze": 1,
+        "loan_id": "1526141266063134720",
+        "loan_no": "ZF20220516153",
+        "borrower": "向阳",
+        "item_type_name": "公务出差",
+        "project_info": "测试项目一",
+        "borrow_date": "2022-05-16 18:03",
+        "loan_amount": 555,
+        "repayable_amount": 0,
+        "frozen_amount": 555,
+        "write_off_amount": 555
+      }
+    ],
+    "fee_summary": [
+      {
+        "id": "1526141683153113088",
+        "adjust_amount": "",
+        "approved_amount": "900.00",
+        "remark": ""
+      }
+    ]
+  },
+  "formDataId": null,
+  "id": "1526141685262848000"
+}

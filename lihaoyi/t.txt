@@ -1,0 +1,8 @@
+https://github.com/lihaoyi/os-lib
+
+os.move( @ os.copy(
+os.pwd / "new.txt",
+os.pwd / "newer.txt",
+os.pwd / "newer.txt"
+os.pwd / "newer-2.txt"
+)

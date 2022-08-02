@@ -1,0 +1,102 @@
+@startjson
+{
+  "enableWriteOff": 0,
+  "extendBooleanConfigMap": {
+    "fileUpload": 0,
+    "moneyLeave": 0
+  },
+  "offlineApproval": 0,
+  "approvalType": "TARGET_APPROVAL",
+  "activateType": "ONE_BY_ONE",
+  "choseNextApprover": 0,
+  "nodeUserList": [
+    {
+      "type": 0,
+      "name": "配置管理员1",
+      "id": 1471014835168841729
+    }
+  ],
+  "type": "START",
+  "childNode": {
+    "enableWriteOff": 0,
+    "extendBooleanConfigMap": {
+      "fileUpload": 0,
+      "moneyLeave": 0
+    },
+    "offlineApproval": 0,
+    "approvalType": "TARGET_APPROVER_SELECT",
+    "activateType": "ONE_BY_ONE",
+    "choseNextApprover": 0,
+    "nodeUserList": [
+      {
+        "type": 0,
+        "name": "张重彬",
+        "id": 1515930380757024770
+      }
+    ],
+    "type": "APPROVER",
+    "childNode": {
+      "enableWriteOff": 0,
+      "extendBooleanConfigMap": {
+        "fileUpload": 0,
+        "moneyLeave": 0
+      },
+      "offlineApproval": 0,
+      "approvalType": "TARGET_APPROVER_SELECT",
+      "activateType": "ONE_BY_ONE",
+      "choseNextApprover": 0,
+      "nodeUserList": [
+        {
+          "type": 4,
+          "name": "",
+          "id": 0
+        }
+      ],
+      "type": "APPROVER",
+      "rejectedType": 0,
+      "conditionNodes": [],
+      "conditionList": [],
+      "enableSettlementAmount": 0,
+      "selectMode": 1,
+      "selectRange": 0,
+      "name": "审批人自选2",
+      "prevId": "uITfaz",
+      "payment": 0,
+      "insertSignType": 0,
+      "nodeId": "XDTfaz",
+      "enableBudget": 2,
+      "formOperates": [],
+      "enableForward": 0
+    },
+    "rejectedType": 0,
+    "conditionNodes": [],
+    "conditionList": [],
+    "enableSettlementAmount": 0,
+    "selectMode": 1,
+    "selectRange": 0,
+    "name": "审批人自选1",
+    "prevId": "7KTfaz",
+    "payment": 0,
+    "insertSignType": 0,
+    "nodeId": "uITfaz",
+    "enableBudget": 2,
+    "formOperates": [],
+    "enableForward": 0
+  },
+  "rejectedType": 0,
+  "conditionNodes": [],
+  "conditionList": [],
+  "enableSettlementAmount": 0,
+  "priorityLevel": 1,
+  "selectMode": 1,
+  "selectRange": 1,
+  "name": "发起人",
+  "prevId": "0",
+  "payment": 0,
+  "nodeId": "7KTfaz",
+  "enableBudget": 0,
+  "noHandlerAction": 0,
+  "enableForward": 0
+}
+
+@endjson

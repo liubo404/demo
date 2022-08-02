@@ -1,0 +1,639 @@
+{
+  "flowElementList": [
+    {
+      "incoming": ["GDDVmz"],
+      "key": "AFDVmz",
+      "outgoing": ["dMDVmz"],
+      "properties": {
+        "conditionsequenceflow": "[1476089469256859650].contains(item)",
+        "defaultConditions": "false"
+      },
+      "type": 1
+    },
+    {
+      "incoming": ["or_s_WGDVmz"],
+      "key": "sf_s_WGDVmz_0",
+      "outgoing": ["WGDVmz_or_0"],
+      "type": 1
+    },
+    {
+      "incoming": [
+        "sf_e_xLDVmz_1526474029513265154",
+        "sf_e_xLDVmz_1515930380757024770"
+      ],
+      "key": "xLDVmz",
+      "outgoing": ["sf3_iBDVmz"],
+      "properties": {
+        "graph_node_split_key": "split_xLDVmz",
+        "graph_node_sign_type": "AND_JOIN",
+        "graph_node_name": "审核人2会",
+        "graph_node_user_name": "张重彬001,张重彬"
+      },
+      "type": 11
+    },
+    {
+      "incoming": ["dMDVmz"],
+      "key": "sf3_SADVmz",
+      "outgoing": ["SADVmz"],
+      "type": 1
+    },
+    {
+      "incoming": ["zIDVmz"],
+      "key": "sf3_split_5ADVmz",
+      "outgoing": ["split_5ADVmz"],
+      "type": 1
+    },
+    { "incoming": ["esf_MIDVmz"], "key": "end_1652854392720", "type": 3 },
+    {
+      "incoming": ["sf_s_WGDVmz_0"],
+      "key": "WGDVmz_or_0",
+      "outgoing": ["sf_e_WGDVmz_0"],
+      "properties": {
+        "graph_node_split_key": "or_s_WGDVmz",
+        "graph_node_sign_type": "OR_JOIN",
+        "caller": 0,
+        "graph_node_name": "45.自选多人或[或签 ]",
+        "graph_node_id": "WGDVmz",
+        "graph_node_user_name": ""
+      },
+      "type": 4
+    },
+    {
+      "incoming": ["sf3_gADVmz"],
+      "key": "gADVmz",
+      "outgoing": ["sf3_tCDVmz"],
+      "properties": {
+        "caller": 1515926526355226626,
+        "graph_node_name": "23.可转交节点",
+        "graph_node_id": "gADVmz",
+        "graph_node_user_name": "张婷婷"
+      },
+      "type": 4
+    },
+    {
+      "incoming": ["split_xLDVmz"],
+      "key": "sf_s_xLDVmz_1515930380757024770",
+      "outgoing": ["xLDVmz_and_1515930380757024770"],
+      "type": 1
+    },
+    {
+      "incoming": ["5ADVmz_and_0"],
+      "key": "sf_e_5ADVmz_0",
+      "outgoing": ["5ADVmz"],
+      "type": 1
+    },
+    { "incoming": ["esf_tCDVmz"], "key": "end_1652854392715", "type": 3 },
+    {
+      "incoming": ["pMDVmz"],
+      "key": "wEDVmz",
+      "outgoing": ["sf3_RKDVmz"],
+      "properties": {
+        "caller": 0,
+        "graph_node_name": "41.自选第一审核人",
+        "graph_node_id": "wEDVmz",
+        "graph_node_user_name": ""
+      },
+      "type": 4
+    },
+    {
+      "incoming": ["sf_s_xLDVmz_1515930380757024770"],
+      "key": "xLDVmz_and_1515930380757024770",
+      "outgoing": ["sf_e_xLDVmz_1515930380757024770"],
+      "properties": {
+        "graph_node_split_key": "split_xLDVmz",
+        "graph_node_sign_type": "AND_JOIN",
+        "caller": 1515930380757024770,
+        "graph_node_name": "审核人2会[会签 张重彬001,张重彬]",
+        "graph_node_id": "xLDVmz",
+        "graph_node_user_name": "张重彬"
+      },
+      "type": 4
+    },
+    {
+      "incoming": ["GDDVmz"],
+      "key": "FFDVmz",
+      "outgoing": ["MIDVmz"],
+      "properties": {
+        "conditionsequenceflow": "[1476439599881388033].contains(item)",
+        "defaultConditions": "false"
+      },
+      "type": 1
+    },
+    { "incoming": ["esf_dMDVmz"], "key": "end_1652854392718", "type": 3 },
+    {
+      "incoming": ["tCDVmz"],
+      "key": "esf_tCDVmz",
+      "outgoing": ["end_1652854392715"],
+      "type": 1
+    },
+    {
+      "incoming": ["sf3_lNDVmz"],
+      "key": "lNDVmz",
+      "outgoing": ["esf_lNDVmz"],
+      "properties": {
+        "caller": 0,
+        "graph_node_name": "7.自选1人",
+        "graph_node_id": "lNDVmz",
+        "graph_node_user_name": ""
+      },
+      "type": 4
+    },
+    {
+      "incoming": ["or_s_vHDVmz"],
+      "key": "sf_s_vHDVmz_1526474029513265154",
+      "outgoing": ["vHDVmz_or_1526474029513265154"],
+      "type": 1
+    },
+    {
+      "incoming": ["sf3_GDDVmz"],
+      "key": "GDDVmz",
+      "outgoing": ["aNDVmz", "AFDVmz", "pMDVmz", "FFDVmz"],
+      "properties": { "hookInfoIds": "[1,2]" },
+      "type": 6
+    },
+    {
+      "incoming": ["sf3_zIDVmz"],
+      "key": "zIDVmz",
+      "outgoing": ["sf3_split_5ADVmz"],
+      "properties": {
+        "caller": 0,
+        "graph_node_name": "43.自选多个审核人顺",
+        "graph_node_id": "zIDVmz",
+        "graph_node_user_name": ""
+      },
+      "type": 4
+    },
+    {
+      "incoming": ["sf3_BBDVmz"],
+      "key": "BBDVmz",
+      "outgoing": ["sf3_gIDVmz_and_1526474029513265154"],
+      "properties": {
+        "caller": 0,
+        "graph_node_name": "5.自选一个",
+        "graph_node_id": "BBDVmz",
+        "graph_node_user_name": ""
+      },
+      "type": 4
+    },
+    {
+      "incoming": [
+        "sf_e_vHDVmz_1515930380757024770",
+        "sf_e_vHDVmz_1526474029513265154"
+      ],
+      "key": "vHDVmz",
+      "outgoing": ["sf3_BBDVmz"],
+      "properties": {
+        "graph_node_split_key": "or_s_vHDVmz",
+        "graph_node_name": "4审核人2或",
+        "graph_node_user_name": "张重彬,张重彬001"
+      },
+      "type": 21
+    },
+    {
+      "incoming": ["sf1_3HDVmz"],
+      "key": "3HDVmz",
+      "outgoing": ["sf3_GDDVmz"],
+      "properties": {
+        "graph_node_type": "START",
+        "caller": 1471014835168841729,
+        "graph_node_name": "发起人",
+        "graph_node_id": "3HDVmz",
+        "graph_node_user_name": "配置管理员1"
+      },
+      "type": 4
+    },
+    {
+      "incoming": ["AFDVmz"],
+      "key": "dMDVmz",
+      "outgoing": ["esf_dMDVmz"],
+      "properties": {
+        "caller": 0,
+        "graph_node_name": "31.自选且线下",
+        "graph_node_id": "dMDVmz",
+        "graph_node_user_name": ""
+      },
+      "type": 4
+    },
+    {
+      "incoming": ["sf3_split_xLDVmz"],
+      "key": "split_xLDVmz",
+      "outgoing": [
+        "sf_s_xLDVmz_1526474029513265154",
+        "sf_s_xLDVmz_1515930380757024770"
+      ],
+      "properties": {
+        "graph_node_name": "审核人2会",
+        "graph_node_id": "xLDVmz",
+        "graph_node_user_name": "张重彬001,张重彬"
+      },
+      "type": 10
+    },
+    {
+      "incoming": ["vHDVmz"],
+      "key": "sf3_BBDVmz",
+      "outgoing": ["BBDVmz"],
+      "type": 1
+    },
+    {
+      "incoming": ["dMDVmz"],
+      "key": "esf_dMDVmz",
+      "outgoing": ["end_1652854392718"],
+      "type": 1
+    },
+    {
+      "incoming": ["sf_s_vHDVmz_1515930380757024770"],
+      "key": "vHDVmz_or_1515930380757024770",
+      "outgoing": ["sf_e_vHDVmz_1515930380757024770"],
+      "properties": {
+        "graph_node_split_key": "or_s_vHDVmz",
+        "graph_node_sign_type": "OR_JOIN",
+        "caller": 1515930380757024770,
+        "graph_node_name": "4审核人2或[或签 张重彬,张重彬001]",
+        "graph_node_id": "vHDVmz",
+        "graph_node_user_name": "张重彬"
+      },
+      "type": 4
+    },
+    {
+      "incoming": ["gIDVmz_and_1526474029513265154"],
+      "key": "sf_s_1526808101234282496",
+      "outgoing": ["gIDVmz"],
+      "type": 1
+    },
+    {
+      "incoming": ["SADVmz"],
+      "key": "sf3_FLDVmz",
+      "outgoing": ["FLDVmz"],
+      "type": 1
+    },
+    {
+      "incoming": ["sf3_or_s_vHDVmz"],
+      "key": "or_s_vHDVmz",
+      "outgoing": [
+        "sf_s_vHDVmz_1515930380757024770",
+        "sf_s_vHDVmz_1526474029513265154"
+      ],
+      "properties": {
+        "graph_node_name": "4审核人2或",
+        "graph_node_id": "vHDVmz",
+        "graph_node_user_name": "张重彬,张重彬001"
+      },
+      "type": 20
+    },
+    {
+      "incoming": ["vHDVmz_or_1515930380757024770"],
+      "key": "sf_e_vHDVmz_1515930380757024770",
+      "outgoing": ["vHDVmz"],
+      "type": 1
+    },
+    {
+      "incoming": ["sf3_split_5ADVmz"],
+      "key": "split_5ADVmz",
+      "outgoing": ["sf_s_5ADVmz_0"],
+      "properties": {
+        "graph_node_name": "44.自己选多人会",
+        "graph_node_id": "5ADVmz",
+        "graph_node_user_name": ""
+      },
+      "type": 10
+    },
+    {
+      "incoming": ["iBDVmz"],
+      "key": "sf3_or_s_vHDVmz",
+      "outgoing": ["or_s_vHDVmz"],
+      "type": 1
+    },
+    {
+      "incoming": ["begin"],
+      "key": "sf1_3HDVmz",
+      "outgoing": ["3HDVmz"],
+      "type": 1
+    },
+    {
+      "incoming": ["WGDVmz_or_0"],
+      "key": "sf_e_WGDVmz_0",
+      "outgoing": ["WGDVmz"],
+      "type": 1
+    },
+    { "key": "begin", "outgoing": ["sf1_3HDVmz"], "type": 2 },
+    {
+      "incoming": ["GDDVmz"],
+      "key": "aNDVmz",
+      "outgoing": ["M8DVmz"],
+      "properties": {
+        "conditionsequenceflow": "[1469927973701812225].contains(item)",
+        "defaultConditions": "false"
+      },
+      "type": 1
+    },
+    {
+      "incoming": ["vHDVmz_or_1526474029513265154"],
+      "key": "sf_e_vHDVmz_1526474029513265154",
+      "outgoing": ["vHDVmz"],
+      "type": 1
+    },
+    {
+      "incoming": ["gADVmz"],
+      "key": "sf3_tCDVmz",
+      "outgoing": ["tCDVmz"],
+      "type": 1
+    },
+    {
+      "incoming": ["M8DVmz"],
+      "key": "sf3_split_xLDVmz",
+      "outgoing": ["split_xLDVmz"],
+      "type": 1
+    },
+    {
+      "incoming": ["sf_s_vHDVmz_1526474029513265154"],
+      "key": "vHDVmz_or_1526474029513265154",
+      "outgoing": ["sf_e_vHDVmz_1526474029513265154"],
+      "properties": {
+        "graph_node_split_key": "or_s_vHDVmz",
+        "graph_node_sign_type": "OR_JOIN",
+        "caller": 1526474029513265154,
+        "graph_node_name": "4审核人2或[或签 张重彬,张重彬001]",
+        "graph_node_id": "vHDVmz",
+        "graph_node_user_name": "张重彬001"
+      },
+      "type": 4
+    },
+    {
+      "incoming": ["gIDVmz"],
+      "key": "sf3_lNDVmz",
+      "outgoing": ["lNDVmz"],
+      "type": 1
+    },
+    {
+      "incoming": ["sf3_FLDVmz"],
+      "key": "FLDVmz",
+      "outgoing": ["sf3_gADVmz"],
+      "properties": {
+        "caller": 0,
+        "graph_node_name": "22.自选一人",
+        "graph_node_id": "FLDVmz",
+        "graph_node_user_name": ""
+      },
+      "type": 4
+    },
+    {
+      "incoming": ["sf3_tCDVmz"],
+      "key": "tCDVmz",
+      "outgoing": ["esf_tCDVmz"],
+      "properties": {
+        "caller": 0,
+        "graph_node_name": "24.自选一人",
+        "graph_node_id": "tCDVmz",
+        "graph_node_user_name": ""
+      },
+      "type": 4
+    },
+    {
+      "incoming": ["sf_e_5ADVmz_0"],
+      "key": "5ADVmz",
+      "outgoing": ["sf3_or_s_WGDVmz"],
+      "properties": {
+        "graph_node_split_key": "split_5ADVmz",
+        "graph_node_sign_type": "AND_JOIN",
+        "graph_node_name": "44.自己选多人会",
+        "graph_node_user_name": ""
+      },
+      "type": 11
+    },
+    {
+      "incoming": ["xLDVmz_and_1515930380757024770"],
+      "key": "sf_e_xLDVmz_1515930380757024770",
+      "outgoing": ["xLDVmz"],
+      "type": 1
+    },
+    {
+      "incoming": ["RKDVmz"],
+      "key": "sf3_zIDVmz",
+      "outgoing": ["zIDVmz"],
+      "type": 1
+    },
+    {
+      "incoming": ["aNDVmz"],
+      "key": "M8DVmz",
+      "outgoing": ["sf3_split_xLDVmz"],
+      "properties": {
+        "caller": 1515930380757024770,
+        "graph_node_name": "1.线下节点",
+        "graph_node_id": "M8DVmz",
+        "graph_node_user_name": "张重彬"
+      },
+      "type": 4
+    },
+    {
+      "incoming": ["or_s_vHDVmz"],
+      "key": "sf_s_vHDVmz_1515930380757024770",
+      "outgoing": ["vHDVmz_or_1515930380757024770"],
+      "type": 1
+    },
+    {
+      "incoming": ["FFDVmz"],
+      "key": "MIDVmz",
+      "outgoing": ["esf_MIDVmz"],
+      "properties": {
+        "caller": 1515930380757024770,
+        "graph_node_name": "51.线下审核人",
+        "graph_node_id": "MIDVmz",
+        "graph_node_user_name": "张重彬"
+      },
+      "type": 4
+    },
+    {
+      "incoming": ["sf3_RKDVmz"],
+      "key": "RKDVmz",
+      "outgoing": ["sf3_zIDVmz"],
+      "properties": {
+        "caller": 1515930380757024770,
+        "graph_node_name": "42.单人审核节点",
+        "graph_node_id": "RKDVmz",
+        "graph_node_user_name": "张重彬"
+      },
+      "type": 4
+    },
+    {
+      "incoming": ["sf3_iBDVmz"],
+      "key": "iBDVmz",
+      "outgoing": ["sf3_or_s_vHDVmz"],
+      "properties": {
+        "caller": 0,
+        "graph_node_name": "3审核人自选一人",
+        "graph_node_id": "iBDVmz",
+        "graph_node_user_name": ""
+      },
+      "type": 4
+    },
+    {
+      "incoming": ["sf_s_xLDVmz_1526474029513265154"],
+      "key": "xLDVmz_and_1526474029513265154",
+      "outgoing": ["sf_e_xLDVmz_1526474029513265154"],
+      "properties": {
+        "graph_node_split_key": "split_xLDVmz",
+        "graph_node_sign_type": "AND_JOIN",
+        "caller": 1526474029513265154,
+        "graph_node_name": "审核人2会[会签 张重彬001,张重彬]",
+        "graph_node_id": "xLDVmz",
+        "graph_node_user_name": "张重彬001"
+      },
+      "type": 4
+    },
+    {
+      "incoming": ["sf3_SADVmz"],
+      "key": "SADVmz",
+      "outgoing": ["sf3_FLDVmz"],
+      "properties": {
+        "caller": 1515930380757024770,
+        "graph_node_name": "21.可加签节点",
+        "graph_node_id": "SADVmz",
+        "graph_node_user_name": "张重彬"
+      },
+      "type": 4
+    },
+    {
+      "incoming": ["WGDVmz"],
+      "key": "esf_or_s_WGDVmz",
+      "outgoing": ["end_1652854392720"],
+      "type": 1
+    },
+    {
+      "incoming": ["FLDVmz"],
+      "key": "sf3_gADVmz",
+      "outgoing": ["gADVmz"],
+      "type": 1
+    },
+    {
+      "incoming": ["lNDVmz"],
+      "key": "esf_lNDVmz",
+      "outgoing": ["end_1652854392714"],
+      "type": 1
+    },
+    {
+      "incoming": ["GDDVmz"],
+      "key": "pMDVmz",
+      "outgoing": ["wEDVmz"],
+      "properties": {
+        "conditionsequenceflow": "[1476377611784421377].contains(item)",
+        "defaultConditions": "false"
+      },
+      "type": 1
+    },
+    {
+      "incoming": ["sf_s_5ADVmz_0"],
+      "key": "5ADVmz_and_0",
+      "outgoing": ["sf_e_5ADVmz_0"],
+      "properties": {
+        "graph_node_split_key": "split_5ADVmz",
+        "graph_node_sign_type": "AND_JOIN",
+        "caller": 0,
+        "graph_node_name": "44.自己选多人会[会签 ]",
+        "graph_node_id": "5ADVmz",
+        "graph_node_user_name": ""
+      },
+      "type": 4
+    },
+    {
+      "incoming": ["sf3_gIDVmz_and_1526474029513265154"],
+      "key": "gIDVmz_and_1526474029513265154",
+      "outgoing": ["sf_s_1526808101234282496"],
+      "properties": {
+        "caller": 1526474029513265154,
+        "graph_node_name": "6.顺2审核人",
+        "graph_node_id": "gIDVmz",
+        "graph_node_user_name": "张重彬001"
+      },
+      "type": 4
+    },
+    {
+      "incoming": ["split_5ADVmz"],
+      "key": "sf_s_5ADVmz_0",
+      "outgoing": ["5ADVmz_and_0"],
+      "type": 1
+    },
+    {
+      "incoming": ["sf_s_1526808101234282496"],
+      "key": "gIDVmz",
+      "outgoing": ["sf3_lNDVmz"],
+      "properties": {
+        "caller": 1515930380757024770,
+        "graph_node_name": "6.顺2审核人",
+        "graph_node_id": "gIDVmz",
+        "graph_node_user_name": "张重彬"
+      },
+      "type": 4
+    },
+    {
+      "incoming": ["xLDVmz"],
+      "key": "sf3_iBDVmz",
+      "outgoing": ["iBDVmz"],
+      "type": 1
+    },
+    {
+      "incoming": ["split_xLDVmz"],
+      "key": "sf_s_xLDVmz_1526474029513265154",
+      "outgoing": ["xLDVmz_and_1526474029513265154"],
+      "type": 1
+    },
+    {
+      "incoming": ["wEDVmz"],
+      "key": "sf3_RKDVmz",
+      "outgoing": ["RKDVmz"],
+      "type": 1
+    },
+    {
+      "incoming": ["MIDVmz"],
+      "key": "esf_MIDVmz",
+      "outgoing": ["end_1652854392720"],
+      "type": 1
+    },
+    {
+      "incoming": ["3HDVmz"],
+      "key": "sf3_GDDVmz",
+      "outgoing": ["GDDVmz"],
+      "type": 1
+    },
+    { "incoming": ["esf_lNDVmz"], "key": "end_1652854392714", "type": 3 },
+    {
+      "incoming": ["sf3_or_s_WGDVmz"],
+      "key": "or_s_WGDVmz",
+      "outgoing": ["sf_s_WGDVmz_0"],
+      "properties": {
+        "graph_node_name": "45.自选多人或",
+        "graph_node_id": "WGDVmz",
+        "graph_node_user_name": ""
+      },
+      "type": 20
+    },
+    {
+      "incoming": ["sf_e_WGDVmz_0"],
+      "key": "WGDVmz",
+      "outgoing": ["esf_or_s_WGDVmz"],
+      "properties": {
+        "graph_node_split_key": "or_s_WGDVmz",
+        "graph_node_name": "45.自选多人或",
+        "graph_node_user_name": ""
+      },
+      "type": 21
+    },
+    {
+      "incoming": ["xLDVmz_and_1526474029513265154"],
+      "key": "sf_e_xLDVmz_1526474029513265154",
+      "outgoing": ["xLDVmz"],
+      "type": 1
+    },
+    {
+      "incoming": ["5ADVmz"],
+      "key": "sf3_or_s_WGDVmz",
+      "outgoing": ["or_s_WGDVmz"],
+      "type": 1
+    },
+    {
+      "incoming": ["BBDVmz"],
+      "key": "sf3_gIDVmz_and_1526474029513265154",
+      "outgoing": ["gIDVmz_and_1526474029513265154"],
+      "type": 1
+    }
+  ]
+}
